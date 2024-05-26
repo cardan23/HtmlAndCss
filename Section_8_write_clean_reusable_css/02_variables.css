@@ -1,0 +1,20 @@
+
+
+/* Creating variables on root element to avoid repeat this code on several classes */
+:root {
+
+    /* variables */
+    --primary-color: #ffdd36;
+    --border-size: 2px;
+    --border-radius: 10px
+}
+
+.one {
+    /* using variable */
+    background: var(--primary-color);
+}
+
+.two {
+    /* using variable */
+    background: var(--primary-color);
+}

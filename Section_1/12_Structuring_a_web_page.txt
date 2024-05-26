@@ -1,0 +1,21 @@
+Structuring a web page
+
+    We use some structural base elements into html, some typical are the next ones:
+
+    <header>
+    <body>
+    <footer>
+
+    But apart from these previous elements we have more elements that could be more descriptive like below:
+
+    <main>
+        Inisde body tag we can have a main element wich means this is the container with the main information of the web page.
+        Any page should have only one main element.
+
+    <aside>
+        We should use this element to representing content not related directly with main element.
+
+    <section>
+        This element is to represent a section or diferent sections into a part of the web page, for example:
+        products, orders, customers, billing, etc... All of these are sections that could be represented and separated
+        semantically on the html source code.

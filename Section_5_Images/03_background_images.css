@@ -1,0 +1,29 @@
+body {
+    margin: 10px;
+
+    /*adding a background image to body*/
+    background: url('Images/bg-sanfrancisco.jpg');
+    
+    /*no repeat the image*/
+    background-repeat: no-repeat;
+
+    /*repeat only on x axis*/
+    /* background-repeat: repeat-x; */
+    /*repeat only on y axis*/
+    /* background-repeat: repeat-y; */
+
+
+    /*adding position to this background image on the web page, first value horizontal (x) and second value vertical (y)*/
+    /* background-position: 100px 100px; */
+
+    /*adding the size of the background image, first value width and second value height*/    
+    background-size: 100% 100%;
+    height: 100vh;
+
+    /*same as previous background size*/
+    /* background-size: cover; */
+
+    /*not move the background with the scroll*/
+    background-attachment: fixed;
+
+}

@@ -1,0 +1,8 @@
+/* we can get backgound svg images into next web page "https://www.svgbackgrounds.com/" */
+body {
+    background: url(Images/constellation.svg);
+}
+
+.ufo {
+    width: 100px;
+}

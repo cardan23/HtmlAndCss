@@ -1,0 +1,24 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+
+    /*overflow property to avoid go out of our box container*/
+
+    /*hidden will hide the content on box container*/
+    /* overflow: hidden; */
+
+    /*scroll will appear the content with scroll in box container*/
+    /* overflow: scroll; */
+
+    /*scroll will appear only if is necessary*/
+    /* overflow: auto; */
+
+    
+    /*scroll will appear at bottom the container and side will be hidden*/
+    overflow: hidden auto;
+}

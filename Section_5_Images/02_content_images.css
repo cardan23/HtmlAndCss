@@ -1,0 +1,6 @@
+.meal {
+
+    /*The image will be blurry due to the size is not the correct for this resolution
+    this is the problem with raster images*/
+    width: 100vw;
+}

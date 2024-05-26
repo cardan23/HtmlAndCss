@@ -1,0 +1,33 @@
+/*Vertical spacing*/
+
+/*margin and line-height*/
+
+/* Law of Proximity */
+/* Objects that are closer are perceived to be related */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+
+    /*Line height*/
+    /* vartical space between text lines */
+    line-height: 1.5rem;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+
+    /*Margin*/
+    /*with this property we are separating text and avoid to be closer and let the customer knows is not related with prevous text*/
+    /*using relative unit (rem --> root element size)*/
+    margin: 3rem 0 1rem;
+}

@@ -1,0 +1,40 @@
+body {
+    margin: 10px;
+}
+
+/*we need to be carefull with floating due to parent of floating element doesn´t can see the existence of floating element
+and this behavior can cause some issues*/
+.tweet {
+    border: 3px solid salmon;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+
+    /*this will clear the floating*/
+    clear: both;
+}
+
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+
+    /*Float*/
+    /*this element will be on left and all around will respect the space*/
+    float: left;
+    margin-right: 0.5rem;
+
+    /*this element will be on right and all around will respect the space*/
+    /* float: right;
+    margin-right: 0.5rem; */
+}
+/*this is to avoid be into the same block than floating element*/
+/*if we are floating left will use clear left, if is rigth we will use clear: right
+if we want to apply both we can use clear : both*/
+.clear {
+    clear: left;
+    /* clear: right; */
+    /* clear: both; */
+}

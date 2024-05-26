@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link of miligram resources css framework -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="04_text_fields.css">
+    <title>Text fields</title>
+</head>
+<body>
+    <form>
+        <label>Text</label>
+        <input type="text">
+        <label>Number</label>
+        <input type="number">
+        <label>Password</label>
+        <input type="password">
+        <label>Date</label>
+        <input type="date">
+        <label>Email</label>
+        <input type="email">
+        <!-- cols is the number of characters on 1 line and rows is the number of lines -->
+        <textarea cols="30" rows="10"></textarea>
+
+        <label>Text with value</label>
+        <input type="email" value="tesing_mail@gmail.com">
+
+        <label>Text with value and read only</label>
+        <input type="email" value="tesing_mail@gmail.com" readonly>
+
+
+        <!-- the difference between disabled and readonly is on submitting disabled field will not be sent to the server. -->
+        <label>Text with value and disabled</label>
+        <input type="email" value="tesing_mail@gmail.com" readonly>
+
+        <label>Text with maxlength</label>
+        <input type="text" maxlength="10">
+
+        <!-- autofocus attribute let us focus the field by default -->
+        <label>Text with autofocus</label>
+        <input type="text" autofocus>
+
+        <label>Text with placeholder</label>
+        <input type="text" placeholder="please type something here">
+
+        <label>Text area with value</label>
+        <textarea>My text area value</textarea>
+
+
+    </form>
+</body>
+</html>

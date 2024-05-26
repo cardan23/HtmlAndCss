@@ -1,0 +1,57 @@
+
+
+/*This is to tell the web browser downloads these fonts when chargin the web page
+we specified 2 formats to web browser decide wich one is available from their side
+*/
+
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/Open_sans/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/Open_sans/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/Open_sans/opensans-bold-webfont.woff2') format('woff2'),
+         url('fonts/Open_sans/opensans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+body {
+    margin : 10px;
+    font-family: 'opensans', Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-weight: normal;
+}
+
+/*Web Save fonts */
+/*These are save fonts that are present on most of the computers*/
+/*
+Arial
+Helvetica
+Georgia
+Times New Roman
+*/
+
+/*Above fonts are save but a little boring here we have : Where find more fonts?*/
+/*
+fontsquirrel.com
+fonts.com
+myfonts.com
+*/
+
+/*For web sites we should use "wof" or "wof 2.0" formats due to are compressed and light for our web pages*/
+/*So we converted tff Open Sans format to wof online*/
+
+
+/*https://caniuse.com/ --> this is a site to check the compatibility of html elements, css properties or formats into web browsers*/

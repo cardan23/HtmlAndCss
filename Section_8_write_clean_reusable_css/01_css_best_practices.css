@@ -1,0 +1,58 @@
+/* 1. use a naming convention for css names */
+
+/* kebab case */
+.nav-bar{
+
+}
+
+/* camelcase */
+.navBar{
+
+}
+
+/* Pascal case */
+.NavBar {
+
+}
+
+/* underscore case */
+.nav_bar{
+
+}
+
+
+/* 2. Separate css style sheets by sections or even different files */
+
+/* basic styles */
+
+/* typography */
+
+/* Forms */
+
+/* Navigation bar */
+
+
+/* 3. Avoid over-specific selectors
+
+X avoid this example */
+/* 
+div.nav > ul.items > li {
+
+} */
+
+/* 4. Avoid to use !important */
+
+/* 5. sort css property by alfabethical name */
+
+/* on visual studio 
+    1. Ctrl + Shift + p 
+    2. Then type sort
+    3. Choose one option
+    4. Enter */
+
+
+/* 6. Take advantage of style inheritance */
+
+/* 7. Extract repetitive patterns */
+
+/* 8. Avoid repetitive values on source code (DRY) */

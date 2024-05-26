@@ -1,0 +1,11 @@
+
+Hyperlinks
+
+    <a> -- anchor
+        Anchor element is used for hyperlinks on a web page
+    
+    <a href=""> -- href (hyperlink reference)
+        href is the property to set the hyperlink
+
+    <a href="" download> -- download attribute
+        download property is to be able to click on the link and download the document

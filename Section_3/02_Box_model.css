@@ -1,0 +1,19 @@
+p.normal {
+    /*this will apply for top 10px rigth 20px bottom 10px and left 20px
+    padding is next the content*/
+    padding: 10px 20px;
+
+    /*border comes after padding on the hierarchy*/
+    border: 5px solid salmon;
+
+    /*margin comes after border on the hierarchy*/
+    margin: 20px;
+}
+
+
+/*If you can see on web browser the distance between p.collapse on bottom and top
+collapses in only 20px on both, this is called MARGIN COLLAPSE*/
+p.collapse {
+    margin: 20px;
+    padding: 0;
+}

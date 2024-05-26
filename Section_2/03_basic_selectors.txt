@@ -1,0 +1,39 @@
+
+
+Selectors
+
+into css we have several Selectors, we listed below:
+
+1. Type
+2. ID
+3. Class
+4. Attribute
+
+
+Type
+    To refer type of element we only need to write the name of the element, like this:
+        div {
+            //styles here
+        }
+
+ID
+    To refer type of element we only need to have a '#' and then the id of the element, like this:
+        #product {
+            //styles here
+        }
+
+    The id should be unique for the element, we cannot use the same Id for another element into the page.
+
+Class
+    To refer type of element we only need to have a '.' and then the class of the element, like this:
+        .product {
+            //styles here
+        }
+
+    we can use the same class for another element into the page, we can reuse the class styles.
+
+Attribute
+    To refer type of element we only need to have the type of the element and then the attribute of the element '[atribute]' , like this:
+        a [target] {
+            //styles here
+        }

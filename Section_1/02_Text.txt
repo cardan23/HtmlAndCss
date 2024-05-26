@@ -1,0 +1,30 @@
+
+Text elements
+
+<p> - paragraph
+    this tag is to show some text on the web page
+
+<em> - emphasize
+    this tag is to emphasize a text (italic text)
+
+<i> - italic (deprecated)
+    this tag is to show italic text, same as <em> tag. The difference here is "i" tag
+    is deprecated and we should not use it anymore due to we should use tags only for 
+    structure not for styles.
+
+<strong>
+    The strong element represents strong importance, seriousness, or urgency for its contents.
+
+<b> - bold (deprecated)
+    similar to "strong" tag, just is deprecated, we should not use it anymore due to we should use tags only for 
+    structure not for styles.
+
+Heading
+<h1>, <h2>, <h3>, <h4>, <h5>, <h6> 
+    
+    For this heading we use this tags for know a hierarchy of elements, not for size as is very common on web pages.
+    We should only use one <h1> tag on our web pages, this to let the search engines fine in a better way our page,
+    nothing happens if we use more than one but is a good practice use a single <h1> element.
+
+
+

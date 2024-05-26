@@ -1,0 +1,45 @@
+html {
+    /*this is 62.5% of 16px = 10px*/
+    font-size: 62.5%;
+}
+
+body {
+    margin: 10px;
+}
+
+.box {
+    /* width: 100px;
+    height: 100px; */
+    background-color: gold;
+
+    /*Abosulute unit*/
+    /*this border will be always 3px no matter the size screen*/
+    /* border-top: 3px solid orange; */
+
+
+    /*Relative unit*/
+    /*50% of the width of the parent*/
+    /*the benefit is will be 50% in all screens and is more scalable than fixed sizes*/
+    /* width: 50%; */
+
+
+    /*vh unit, view port height*/
+    /*this means all the complete size of view port height, 100% of height of the view port*/
+    height: 100vh;
+
+    /*vw unit, view port width*/
+    /*this means 50% size of view port width, 50% of width of the view port*/
+    /* width: 50vw; */
+
+    /*em unit, x times of font size*/
+    /*we don have specified a font size into this element so will take from the parent*/
+    /*as you can see the parent (body) doesn´t have a font size declared but on web browsers this is set on 16px by default*/
+    /*so we have 10 x 16px = 160px*/
+    /* width: 10em; */
+
+    /*rem unit, x times of the root element, in this case root element html has 10px */
+    /*will be 10 x 10px = 100px*/
+    /*but if the font size changes will take a different size*/
+    width: 10rem;
+
+}

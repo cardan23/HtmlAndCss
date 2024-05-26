@@ -1,0 +1,8 @@
+Colors
+
+    On css we have different ways to represent colors:
+
+    1. Named colors
+    2. RGB (Red Green Blue scale)
+    3. HSL (hue, saturation, lightness)
+    4. Hexadecimal 

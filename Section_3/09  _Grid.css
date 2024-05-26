@@ -1,0 +1,105 @@
+body {
+    margin: 10px;
+}
+
+.container {
+
+    height: 100vh;
+
+    /*-----------GRID--------------*/
+    /*display property with grid value*/
+    display: grid;
+    /*3 x 2*/
+    /*each value will be a row*/
+    /* grid-template-rows: 100px 100px 100px; */
+
+    /*each value will be a column*/
+    /* grid-template-columns: 100px 100px; */
+
+    /*same as before, just using repeat function will have same result*/
+    /* grid-template-rows: repeat(3, 100px);
+    grid-template-columns: repeat(2, 100px);*/
+
+    /*property to write rows and columns*/
+    /*this will be the same as previous one*/
+    /* grid-template: repeat(3, 100px) / repeat(2, 100px); */
+
+
+    /*30fr and 70fr means fractions, this will take 30 and 70 for columns of the available space, its a best practice to use fractions
+    instead percentages % for columns and rows grid*/
+    /*auto value will take available size due and 100px on other rows will be fixed*/
+    grid-template: 100px auto 100px / 30fr 70fr;
+    border: 3px solid lightgray;
+
+    /*---------Aligning Items in grid------------*/
+
+    /*horizontal axis*/
+    /*this is the default value and will take the 100% width of size*/
+    justify-items: stretch;
+    /* justify-items: center; */
+
+    /*vertical axis*/
+    /*this is the default value and will take the 100% height of size*/
+    align-items: stretch;
+    /* align-items: center; */
+
+    /*-----------Aligning the whole grid---------*/
+
+    /*align the whole grid horizontal way to center, start, end, etc.*/
+    /* justify-content: center; */
+
+    /*align the whole grid vertical way to center, start, end, etc.*/
+    /* align-content: center; */
+
+
+    /*GAP*/
+
+    /*space between rows and columns*/
+    /* gap: 10px 10px; */
+    row-gap: 10px;
+    column-gap: 10px;
+
+    /*-------------NAMING GRID AREAS----------*/
+
+    /*. dot is for set empty area*/
+    grid-template-areas: 
+        "header header"
+        "sidebar main"
+        ". footer";
+}
+
+.box {
+    /* width: 5rem; */
+    /* height: 5rem; */
+    background-color: gold;
+}
+
+.box-one {
+
+
+    /*---------------GRID COLUM AND GRID ROW*/
+
+    /*we tell where we want to show the column, here from column 1 to column 3<*/
+    /* grid-column: 1 / 3; */
+
+    /*we will show this box on secont row*/
+    /* grid-row: 2; */
+
+
+    /*grid-area is the same but less readable, same as before but ugly*/
+    /*start / end*/
+    /*row / colum*/
+    /* grid-area: 2 / 1 / 2 / 3; */
+
+    /*negative value will take until the end of the columns*/
+    /* grid-column: 1 / -1; */
+    grid-column: 1 / 3;
+    grid-row: 1;
+}
+
+.box-four {
+
+    /*setting the box into named area, we are setting this div into area footer*/
+    /*no needed quotes to set the name*/
+    grid-area: footer;
+}

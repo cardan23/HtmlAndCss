@@ -1,0 +1,26 @@
+Semantic Elements
+
+This elements are containers like "div" or "span", those are generic containers. However, HTML introduced some containers that are more descriptive or meaningful
+for the html file.
+
+Commonly those semantic elements are used on post, news web pages, blogs, etc. But not necessary we can use only on this kind of pages. 
+
+<article>
+	An article could be any independent, self-contained content
+	for example:
+		Forum post
+		Comments
+		Reviews
+		Product carts
+<figure>
+	This container doesn't have any visual caracteristics its just semantic element and more descriptive element to tell the content of this element.
+	The <figure> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.
+	
+	more information here: https://www.w3schools.com/tags/tag_figure.asp
+<mark>
+	This semanting element is pretty similar to use "span" element to highlight a piece of text, the difference with mark is we dont need to use any css property
+	to highlight the text, by default is marked with yellow. With this we can know in a better way this is only to hightlight the text.
+<time>
+	this is a semantic element used to dates on html pages, no visual changes just helps to search engines find in a best way our web page, and for programmers
+	identify what is that element about.
+	

@@ -1,0 +1,34 @@
+body {
+    margin: 10px;
+}
+
+/*This pseudo element selector will apply styles to first letter of p element*/ 
+p::first-letter {
+    font-size: 140%;
+    font-weight: bold;
+}
+
+/*This pseudo element selector will apply styles to first line of p element*/ 
+p::first-line {
+    font-weight: bold;
+}
+
+/*This pseudo element selector will apply styles to selected text of p element*/ 
+p::selection {
+    background-color: pink;
+}
+
+/*This pseudo element selector will apply styles to selected text of any element*/ 
+::selection {
+    background-color: pink;
+}
+
+/*This pseudo element selector will add content before p element*/ 
+p::before{
+    content: '...';
+}
+
+/*This pseudo element selector will add content after p element*/ 
+p::after{
+    content: '...';
+}

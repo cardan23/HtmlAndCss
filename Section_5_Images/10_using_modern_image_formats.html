@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Normalizing_css.css">
+    <link rel="stylesheet" href="10_using_modern_image_formats.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- use cloudconvert.com to convert images from png or jpg to modern format "webp" -->
+
+    <!-- Comparison between jpg format and webp modern format, the reason we use modern formats like webp is due to
+    files are lighter than jpg or png formats -->
+    <img src="Images/meal.webp" alt="salmon plate">
+    <img src="Images/meal.jpg" alt="salmon plate">
+
+    <!-- Modern format to set a picture or image on HTML -->
+    <picture>
+        <!-- We add all these sources in case the web browser do not accept some of these formats
+        at the end we always add default img element to be sure this will work into all web browsers -->
+        <source type="image/webp" srcset="Images/meal.webp" />
+        <source type="image/jpeg" srcset="Images/meal.jpg" />
+        <img src="Images/meal.jpg" alt="A bowl of salmon">
+    </picture>
+</body>
+</html>

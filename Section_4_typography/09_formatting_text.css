@@ -1,0 +1,107 @@
+/*Formating text*/
+
+/* text-align */
+/* text-indent */
+/* text-decoration */
+/* text-transform */
+/* white-space */
+/* column-* */
+/* direction */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    margin: 3rem 0 1rem;
+}
+
+p {
+    width: 50ch;
+
+    /* 1. Text-align */
+
+    /* for web pages the best align for text is left */
+    text-align: left;
+
+    /* Text-align center */
+    /* text-align: center; */
+
+    /* justify value is not recommended to set on this property, this could be hard to read for customer */
+    /* text-align: justify; */
+
+
+
+    /* 3. text-decoration */
+
+    text-decoration: overline;
+    /* text-decoration: line-through; */
+
+
+
+    /* 4. text-transform */
+
+    /* transform text to lower case, upper case */
+    text-transform: uppercase;
+    /* text-transform: lowercase; */
+    /* this will capitalize the first letter of every word, pretty usefull for headings */
+    /* text-transform: capitalize; */
+
+
+
+    /* 5. white-space */
+    /*no wrap one sigle line of text*/
+    /* white-space: nowrap; */
+
+    /*just to see border and the overflow text*/
+    /* border: 3px solid gold; */
+
+    /* hide over flow text */
+    /* overflow: hidden; */
+
+    /* enable "..." to text overflow*/
+    /* text-overflow: ellipsis; */
+
+
+
+    /* 6. column-* */
+
+    /* having two columns of text */
+    /* column-count: 2; */
+
+    /* space between columns */
+    /* column-gap: 2rem; */
+    /* column-rule: 3px dotted #999; */
+
+
+
+    /* 7. direction */
+
+    /* default value "ltr" (left to right) */
+    /* direction: ltr; */
+
+    /* value "rtl" (right to left) */
+    /* direction: rtl; */
+}
+
+/* a paragraph next to another will apply indentation on first line*/
+p + p {
+     /* 2. Text-indent */
+
+    /*this property adds space on the first line*/
+    text-indent: 1rem;
+}

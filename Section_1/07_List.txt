@@ -1,0 +1,18 @@
+List
+
+In HTML we have diferent elements for List, next we can show some of them:
+
+<ul>
+    un-ordered list, wich means the order of items doesn't matter
+
+    <li>
+        List item, inside every list we will have items and we will use "li" tag for each one.
+
+<ol>
+    ordered list, wich means the order of items matter
+    <li>
+
+<dl> 
+    Description list, we can add to list some tems and several descriptions by term. I mean we can have a bunch of description on each term.
+    <dt> --> detail term
+    <dd> --> detail description

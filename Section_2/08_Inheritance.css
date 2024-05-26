@@ -1,0 +1,19 @@
+body {
+    margin: 10px
+}
+
+p {
+    color: steelblue;
+    border: 1px salmon solid;
+}
+
+/*Here strong is not taking the inheritence for color from p parent element
+ with initial value we are telling css not taking the inheritence for color into this strong element
+
+ something different happens into border property, we are telling css we need to inherit the property of
+ border from parent and apply those styles to strong child too.
+*/
+strong {
+    color: initial;
+    border: inherit;   
+}

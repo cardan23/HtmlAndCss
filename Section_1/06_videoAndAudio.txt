@@ -1,0 +1,20 @@
+Video and Audio
+
+We can get some free video from the next site: https://www.pexels.com/
+
+<video> is used to set some video content into html, the same way as <audio>
+<audio> is used to set some audio into html content.
+
+src --> this is the link/path of the audio/video
+constrols --> specify if we want to show controls into video/audio like "play", "stop", "volume", etc.
+autoplay --> to start the video/audio when the page load
+loop --> repeat the video again and again
+
+IMPORTANT!
+
+We can check the compatibility of html elements with web browsers
+and know if we can use it or if will be work fine for our purposes.
+    on this site: caniuse.com
+
+more about video: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
+more about audio: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/audio

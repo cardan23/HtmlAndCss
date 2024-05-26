@@ -1,0 +1,14 @@
+
+
+Providing css
+
+There are some ways to provide a css file (styles) into our html file, here we can see the next ones:
+
+1. Embedded stylesheets
+    This means have the css code into the html file. 
+
+2. External stylesheets
+    We can call with a reference stylesheet file from our html code but into separated files.
+
+3. Inline styles
+    This means apply the styles directly into a particular html element.

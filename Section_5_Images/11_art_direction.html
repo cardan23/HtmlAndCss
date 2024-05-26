@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Normalizing_css.css">
+    <link rel="stylesheet" href="">
+    <title>Document</title>
+</head>
+<body>
+    <!-- This is art direction in action
+    we will see the soruce depending of the max-width, is like media query on the html images content
+
+    this is why picture and source are so usefull, the web browser will take the image depending resolution and
+    max-width pixels condition -->
+    <picture>
+        <source media="(max-width: 500px)" srcset="Images/meal-cropped.jpg">
+        <source media="(max-width: 501px)" srcset="Images/meal.jpg">
+        <img src="Images/meal.jpg" alt="" />
+    </picture>
+</body>
+</html>

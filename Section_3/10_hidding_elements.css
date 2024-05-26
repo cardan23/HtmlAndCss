@@ -1,0 +1,12 @@
+body {
+    margin: 10px;
+}
+
+.first {
+
+    /*this will disapear the element*/
+    display: none;
+
+    /*this property will disapear the element like none, but the difference is the space of the element is still allocated*/
+    /* visibility: hidden; */
+}

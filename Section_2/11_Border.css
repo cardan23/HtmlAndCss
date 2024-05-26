@@ -1,0 +1,33 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: dodgerblue;
+
+    /*first value is width of border
+    second value is style of bordr
+    and third value is the color of the border*/
+    /* border: 10px solid royalblue; */
+
+    /*dotted border*/
+    /* border: 10px dotted royalblue; */
+
+    /*dashed border*/
+    /* border: 10px dashed royalblue; */
+
+    /*fist is top border
+    second is right border
+    third is bottom border
+    and the last one is left border*/
+    /* border: 10px dashed aquamarine;
+    border-width: 10px 20px 10px 20px;top right bottom left (trbl) */
+
+    /*rounded corners on border*/
+    /* border-radius: 10px; */
+    
+    /*cicle*/
+    border-radius: 100%;
+}

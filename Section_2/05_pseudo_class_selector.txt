@@ -1,0 +1,29 @@
+Pseudo class selector
+
+    On css we can have pseudo class selectors, we need to be carefull with this because it can be fragile and be sure about the structrure of html elements to apply pseudo
+    class selectors to not break the styles.
+
+    The syntaxis is the next one:
+
+    selector:pseudo-class {
+         property: value;
+    }
+
+    We can have different pseudo class selectors we will show some of them next:
+
+    /* unvisited link */
+    a:link
+
+    /* visited link */
+    a:visited
+
+    /* mouse over link */
+    a:hover
+    
+    /* selected link */
+    a:active
+
+    You can find more information about pseudo class selectors on the next links
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+    https://www.w3schools.com/css/css_pseudo_classes.asp

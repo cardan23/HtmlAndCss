@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link of miligram resources css framework -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <title>Grouping related fields</title>
+</head>
+<body>
+    <form>
+        <label>FielSet</label>
+        <!-- group logical containers by type or group of inputs -->
+        <fieldset>
+            <legend>Billing Address</legend>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+        </fieldset>
+        <fieldset>
+            <legend>Payment</legend>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+        </fieldset>
+
+
+        <!-- instead of "fielset" element we can use "section" element and instead "legend" we can use "h2" element -->
+        <label>Section</label>
+        <section>
+            <h2>Billing Address</h2>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+        </section>
+        <section>
+            <h2>Payment</h2>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+        </section>
+    </form>
+</body>
+</html>

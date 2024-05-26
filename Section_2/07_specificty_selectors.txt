@@ -1,0 +1,15 @@
+Specificty Selectors
+
+    On Selectors we have a hierarchy, css will apply changes to more specific selector.
+
+    1. ID selector
+    2. Class selector
+    3. Element selector
+
+    Css will apply changes into that order, first will check id selectors, then class selectors and at the end 
+    element selectors.
+
+    We can combine selectors like elements and class selector and be more specific and css will apply changes into 
+    that hierarchy.
+
+    Please check the examples into html and css files.

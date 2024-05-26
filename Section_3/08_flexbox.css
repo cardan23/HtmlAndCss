@@ -1,0 +1,79 @@
+body {
+    margin: 10px;
+}
+
+/*FLEXBOX (Flexible Box Layout)*/
+
+/*its easier and flexible thant floats*/
+
+.container {
+    border: 3px solid lightgrey;
+    height: 50vh;
+
+    /*using flex*/
+    display: flex;
+
+    /*flex direction we can say how we want to display our boxes, row is by default*/
+    flex-direction: row;
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+
+    /*flexbox has two AXES 
+    1. Main (primary)
+    2. Cross (secondary)
+    
+    This depends on what we set on flex-direction property, 
+    if we set row, then row (horizontal axe) will be the main axe
+    if we set column, then colum (vertical axe) will be the main axe
+    */
+
+    /* 1. Main (primary) */
+    /*this property will be show the elements at the position specified of main direction, will be "start" value by default*/
+    /* justify-content: center; */
+    /* justify-content: end; */
+    /* justify-content: start; */
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    justify-content: space-evenly;
+
+    /* 2. Cross (secondary) */
+    /*this property will be show the elements at the position specified of cross direction, will be "start" value by default*/
+    /* align-items: start; */
+    /* align-items: end; */
+    align-items: center;
+
+    /*flex-wrap property to avoid change the size of our boxes due to flexbox and a lot of boxes in one line*/
+    /*wrap will mantain the original size of the box*/
+    flex-wrap: wrap;
+
+    /*no-wrap means it can change the size of the box*/
+    /* flex-wrap: no-wrap; */
+
+
+    /*we can align multiple lines or the content inside the flexbox container*/
+    /* align-content: center; */
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+    background: goldenrod;
+    margin: 1rem;
+}
+
+.box-one_extra {
+
+    /*this property will align the item in a independent way, will override the "align-item" property from parent */
+    /* align-self: flex-end; */
+    align-self: flex-start;
+
+
+    /*Flex Sizing items*/
+    /*this will over ride width property, is the same but with flex*/
+    flex-basis: 10rem;
+
+    /*please check these two next properties*/
+    flex-grow: 0; /*https://developer.mozilla.org/en-US/docs/Web/CSS/flex-grow*/
+    flex-shrink: 2; /*https://developer.mozilla.org/en-US/docs/Web/CSS/flex-shrink*/
+}

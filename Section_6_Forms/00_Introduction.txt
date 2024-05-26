@@ -1,0 +1,17 @@
+Building Forms
+
+
+In this section we will learn about next topics:
+
+1. Build forms
+2. Style forms
+3. Text fields
+4. Data lists
+5. Drop-down lists
+6. Check boxes
+7. Radio buttons
+8. Sliders
+9. File inputs
+10. Hidden fields
+11. Data validation
+12. Submitting forms

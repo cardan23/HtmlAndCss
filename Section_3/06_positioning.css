@@ -1,0 +1,79 @@
+body {
+    margin: 10px;
+}
+
+.boxes {
+    border: 3px solid lightblue;
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+}
+
+.box-one {
+    background-color: gold;
+}
+
+.box-two {
+    background-color: tomato;
+
+    /*Relative is normal position*/
+    position: relative;
+
+    /*moving this box to from left to rigth 5rem*/
+    left: 3rem;
+
+    /*moving this box to from right to left 5rem*/
+    /* right: 5rem; */
+
+    /*moving this box to from top to bottom 5rem*/
+    top: 4rem;
+
+    /*moving this box to from bottom to top 5rem*/
+    /* bottom: 5rem; */
+
+    /*adding position into z plane, move behind or back*/
+    z-index: -1;
+}
+
+.box-three {
+    background-color: dodgerblue;
+}
+
+
+/*-------Absolute and Fixed position---------*/
+
+.boxes_extra {
+    border: 3px solid lightblue;
+    position: relative;
+}
+
+.box-one_extra {
+    background-color: gold;
+}
+
+/*-------Absolute position---------*/
+.box-two_extra {
+    background-color: tomato;
+
+    /*absolute position*/
+    /*relative to the parent*/
+    /*is like independent position from parent*/
+    position: absolute;
+
+    /*moving this box to from left to rigth 5rem*/
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+/*-------Fixed position---------*/
+.box-three_extra {
+    background-color: dodgerblue;
+
+    /*Fixed position*/
+    /*relative to the view port*/
+    position: fixed;
+    top: 0;
+}

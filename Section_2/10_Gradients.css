@@ -1,0 +1,59 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+
+    /* applying gradiend, by default up to down */
+    /* background: linear-gradient(dodgerblue, yellow); */
+
+    /* applying gradiend, left to right */
+    /* background: linear-gradient(to right, dodgerblue, yellow); */
+
+    /* applying gradiend, right to left */
+    /* background: linear-gradient(to left, dodgerblue, yellow); */
+
+    /* applying gradiend, bottom to top */
+    /* background: linear-gradient(to top, dodgerblue, yellow); */
+
+    /* applying gradiend, top to bottom as defaul */
+    /* background: linear-gradient(to bottom, dodgerblue, yellow); */
+
+    /* applying gradiend, bottom to top from right corner to left */
+    /* background: linear-gradient(to top left, dodgerblue, yellow); */
+
+    /* applying gradiend, top to bottom from left corner to rigth */
+    /* background: linear-gradient(to bottom right, dodgerblue, yellow); */
+
+    /* applying gradiend, top to bottom from right corner to left */
+    /* background: linear-gradient(to bottom left, dodgerblue, yellow); */
+
+    /* applying gradiend, bottom to top from left corner to right */
+    /* background: linear-gradient(to top right, dodgerblue, yellow); */
+
+    /*adding extra color*/
+    /* background: linear-gradient(to top right, dodgerblue, yellow, tomato); */
+
+    /*adding N extra color*/
+    /* background: linear-gradient(to top right, dodgerblue, yellow, tomato, dodgerblue, green); */
+
+
+
+    /*---------------- RADIANL GRADIENT COLOR ----------------------*/
+
+    /*radial circle from center to entire box, default option*/
+    /* background: radial-gradient(white, yellow); */
+
+    /*cicle gradient from top left to entire box*/
+    /* background: radial-gradient(circle at top left ,white, yellow); */
+
+    /*we can generate more gradients on web pages an will generate the css code for us*/
+    /*please test on this web site: https://cssgradient.io/*/
+
+    /*gradient css code generated with cssgradient.io web tool*/
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}

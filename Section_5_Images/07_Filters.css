@@ -1,0 +1,27 @@
+/* Filters
+
+On css we can apply a lot of filters like below:
+
+1. grayscale
+2. blur
+3. contrast
+4. brightness
+5. sature */
+
+/* Filter functions available and test online with mozila */
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/filter */
+
+/* if we want to use some filter and check what web browsers support it we can use the "caniuse.com" web site and verify */
+
+body {
+    margin: 10px;
+}
+
+.meal {
+    
+}
+
+.meal:hover {
+    /*applying a grayscale and blur filters to image on hover*/
+    filter: grayscale(70%) blur(3px);
+}

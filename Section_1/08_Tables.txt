@@ -1,0 +1,39 @@
+Tables
+
+In Html a table can help us to organice or show in a better visual way some data, more structured than lists
+and identified by rows and columns.
+
+
+A good example using tables on html could be the next site "https://www.ny.com/general/weather.html"
+this is a table where we can check the maximum and minimum temperatures by month on new york and we can see all data
+presented in a table for better understanding.
+
+The Html tags for table are the next:
+
+	<table> 
+		---> table, main tag to create a table.
+
+	<thead> 
+		---> table header section, on this section we can define "<th>" elements of the table. If we not
+		     include this tag will work fine but for better semantic its necessary.
+
+	<tbody> 
+		---> table body section, on this section we can define all data cells of table, as "thead" if we not include
+		     this tag, the table will work fine but its a good practice for a good semantic html code.
+
+	<th> 
+		---> table header, on this section we can include titles/names of the table columns. "th" text will be bold by default.
+			--> colspan attribute, this means how many colums will spand the header in case we need it.
+
+
+	<tr> 
+		---> table row, this tag defines a row on the table. This is necessary for every row.
+
+	<td> 
+		---> table data cell, this tag defines a data cell on the table. This is necessary for every cell. "td" text will be normal by default.
+
+	<tfoot> 
+		---> table footer, this is the end of the table we can define final data on this section.
+
+
+

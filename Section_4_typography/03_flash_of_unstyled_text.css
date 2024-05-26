@@ -1,0 +1,59 @@
+
+
+/*If our internet connection is to slow or customer internet connection is slow or having some problems
+our embedded fonts can take a time to donwload and be reflected on web page, this will cause the web browser
+will take the next option available to show style text, mean while is downloading our font family. Customer can see
+two different font styles and can have a bad experience with the web page, to this problem we called "FLASH OF UNSTYLED TEXT".
+*/
+
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/Open_sans/opensans-regular-webfont.woff2') format('woff2'),
+         url('fonts/Open_sans/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+    /*web browser will be in charge of this change*/
+    /* font-display: auto; */
+
+    /*web browser will be show first a style font and after complete download will change, "FLASH OF UNSTYLED TEXT"*/
+    /* font-display: swap; */
+
+    /*This is a better aproach, if download is taking much time this property will give like 10 seconds to download and change can be reflected without show 
+    two different style fonts*/
+    font-display: fallback;
+
+    /*We should avoid this value, this will block to see the text until download the font styles, but if its never donlowaded the text will never be visible*/
+    /* font-display: block; */
+
+
+    /*To reduce even more the font file and be quick to download and we could avoid as much possible this "FLASH UNSTYLED" problem we can
+    create our font file as expert and customize the characters we will use and file will be light and faster to download, this will not resolve the 
+    problem to 100% but will reduce the time of the download*/
+
+    /*please check image: 03_flash_of_unstyled_text_expert_custom_styles.png*/
+
+    /*web site to download font as expert and custom chars: https://www.fontsquirrel.com/tools/webfont-generator */
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url('fonts/Open_sans/opensans-bold-webfont.woff2') format('woff2'),
+         url('fonts/Open_sans/opensans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+body {
+    margin : 10px;
+    font-family: 'opensans', Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-weight: normal;
+}

@@ -1,0 +1,76 @@
+
+/** is a universal selector, will select all html elements, and before and after pseuso selectors
+here we are applyinh box sizing to border box into all html elements*/
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+}
+
+div.box{
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+
+    /*until here our box is 200px x 200px, the size is what we set*/
+
+    /*adding padding and border
+    our box will increase the size with these two properties to 260px x 260px
+    
+    200 + 40 + 20 = 260px
+
+    20px each padding side and 10 px each border side.
+    */
+    padding: 20px;
+    border: 10px solid orange;
+
+    /*margin does not affect the size of the box
+    please check on web browser
+    still having same size just with margin aside*/
+    margin: 20px;
+
+    /*box sizing: content-box is by default, applying size to content*/
+    /* box-sizing: content-box; */
+
+    
+    /*If we apply border-box, all size changes will be applied on border zone and
+      content zone will be as before on 200px in total, no content changes on size*/
+    box-sizing: border-box;
+}
+
+/*adding before content to div box*/
+div.box::before{
+    content: "hello"
+}
+
+/*As you can see, inline elements like span doesn´t respect width and height properties
+  you can see elements each other no matter the size*/
+span.box {
+    width: 200px;
+    height: 200px;
+    background-color: gold;
+
+    /*if we want to have size we need to specify with display the way we want to display the element
+    on span and inline elements display is inline by default*/
+
+    /*inline as default*/
+    /* display: inline; */
+
+    /*even is inline we can modify to block like div, block and different line*/
+    /* display: block; */
+
+    /*Or we can modify to inline-block as combination of both, taking width and heigth in the same line*/
+    display: inline-block;
+
+}
+
+/*adding before content to span box*/
+span.box::before{
+    content: "hello"
+}
+
+span.between::before{
+    content: "between"
+}

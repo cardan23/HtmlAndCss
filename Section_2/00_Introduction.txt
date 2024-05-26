@@ -1,0 +1,14 @@
+Introduction
+
+CSS elements
+
+Into this section you will see a lot of information about css, here the topics
+
+
+1. Various ways to provide css
+2. Normalizing css
+3. Selectors
+4. Colors
+5. Gradients
+6. Borders
+7. Shadows

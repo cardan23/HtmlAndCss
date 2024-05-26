@@ -1,0 +1,50 @@
+body {
+    margin: 10px;
+}
+
+/*This :first-child is the pseudo selector and will apply styles to first child of article element*/
+article :first-child {
+    color: aquamarine;
+}
+
+/*This :last-child is the pseudo selector and will apply styles to last child of article element*/
+article :last-child {
+    color: orange;
+}
+
+/*This :first-of-type is the pseudo selector and will apply styles to first of type p inside article element*/
+article p:first-of-type{
+    font-weight: bold;
+}
+
+/*This :first-of-type is the pseudo selector and will apply styles to last of type p inside article element*/
+article p:last-of-type{
+    font-weight: bold;
+}
+
+/*This pseudo selector will apply styles to odd element on a list*/
+ul :nth-child(odd) {
+    color: magenta
+}
+
+/*This pseudo selector will apply styles to even element on a list*/
+ul :nth-child(even) {
+    color: blueviolet
+}
+
+/*This pseudo selector will apply styles to 3rd element on a list*/
+ul :nth-child(3n) {
+    color: goldenrod
+}
+
+/*This pseudo selector will apply styles the "a" element */
+a:visited,
+a:link {
+    color: dodgerblue;
+} 
+
+/*This pseudo selector will apply styles once we are hover or focused the "a" element */
+a:hover,
+a:focus {
+    color: salmon
+}

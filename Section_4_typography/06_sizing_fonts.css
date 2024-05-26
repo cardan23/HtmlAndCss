@@ -1,0 +1,41 @@
+/*Font sizing*/
+
+/*
+We should avoid the use of fixed units, like px, cm, inch, etc.
+for a better approach we must use relative units like: percentage %, vw, vh, em, rem
+*/
+
+html {
+    /*this is the size in most of the cases on web browsers, but not necessary specified like this due to 
+    user can change the font size on the web browser config and this value can change*/
+    /* font-size: 16px; */
+
+    /*better approach for font sizes*/
+    font-size: 100%;
+}
+
+body {
+    margin: 10px;
+
+    /*! x font size of the root element (html), this is a relative unit*/
+    font-size: 1rem;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    /*no matter if we change the size of the font on web browser config, this value will be 2 times that value*/
+    font-size: 2rem;
+}
+
+@media screen and (min-width: 400px) {
+
+    /* font size will be bigger on screens width minimum 400px, on mobile will be 100%*/
+    html {
+        font-size: 130%;
+    }
+}
+
+
+/* On this site you can find and see the rigth size of the fonts and use it on your stylesheet if you want */
+/* https://typescale.com/ */

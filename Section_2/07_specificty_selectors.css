@@ -1,0 +1,28 @@
+body {
+    margin: 10px;
+}
+
+/*element selector, not to much specific*/
+article p {
+    color: goldenrod;
+}
+
+/*class selector, more specific than element selector*/
+article .highlight {
+    color: brown;
+}
+
+/*id selector, most specific, css will take this styles and will override the previous ones*/
+article #product {
+    color: magenta;
+}
+
+/*avoid this kind of super specific selectors, this can be hard of maintence and hard to read and fix issues*/
+/* html body article .highlight#product {
+    color: blueviolet;
+} */
+
+/*avoid to use !importan on the styles, this is a bad practice and can cause some problems fixing or finding issues*/
+/* article .highlight {
+    color: royalblue !important;
+} */

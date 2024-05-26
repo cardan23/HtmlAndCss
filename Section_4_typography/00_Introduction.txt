@@ -1,0 +1,12 @@
+
+Typography
+
+
+On this section we will learn about the next topics:
+
+
+1. Styling fonts
+2. Embedding custom fonts
+3. Using font services
+4. Best practices for text size and spacing
+5. Fomatting text

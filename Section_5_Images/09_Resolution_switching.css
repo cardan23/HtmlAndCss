@@ -1,0 +1,16 @@
+body {
+    /* margin: 10px; */
+}
+
+
+/*Instead of pixels we can use a dynamic unit size so we will use vw (viewport width) Complete screen size
+This can be a problem with images and resolution, this can be the Resolution Switching problem, please check the HTML to
+check the solution
+*/
+.meal {
+    /* fix unit size> */
+    /* width: 400px; */
+
+    /* Relative unit size */
+    /* width: 100vw; */
+}

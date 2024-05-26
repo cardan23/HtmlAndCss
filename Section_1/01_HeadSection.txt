@@ -1,0 +1,34 @@
+
+The head section
+
+Tip:
+    If we type "!" and then "tab" key on keyboard will write a default html code with
+    basic elements.
+
+<!DOCTYPE html>
+    This tag is refering to a root html element and !DOCTYPE is refering to html 5 version.
+
+<html lang="en"> 
+    this tag specify the language we are using on the web page in this case "en" means English.
+
+<head>
+    head elements indicates is the head of the page
+
+<meta>
+    This tag gives information to web browser 
+
+<meta charset="UTF-8">
+    this meta tag with "charset" attribute indicate the char set (set of characters) to use into the
+    web page. The are many char sets like "ASCII", in this case we use "UTF-8" wich has the most used char
+    around the world.
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    name="viewport" indicates all the visible space on web page, this meta tag with all these attributes
+    are to inform the web browser the devices will be available this web page (screen size).
+
+<meta name="keywords" content="HTML, CSS, COURSE, WEB PAGE">
+    this meta tag is to gives information to some search engines (google, bing, etc) about some keywords
+    to find easily the content.
+
+<meta name="description" content="description of the web page">
+    this tag gives information to search engines to display the description to users.

@@ -1,0 +1,13 @@
+Box model
+
+on html and css we have the next way about boc model
+
+1. content
+2. Padding
+3. Border
+4. Margin
+
+content --> Padding --> Border --> Margin
+
+
+Please check the image.

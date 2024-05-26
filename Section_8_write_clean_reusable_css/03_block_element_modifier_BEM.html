@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="03_block_element_modifier.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- BEM convention for css clases-->
+    <!-- this convention consist into separate two words with two underscores like this: card__header -->
+
+    <!-- we use -- to distinguish a modifier class from element class (card--popular its a modifier class and card__header its a element class) -->
+    <div class="card card--popular">
+
+        <!-- we are adding the prefix card__ to card__header beacause this header is part of the card is NOT independent block we are going
+        to use it only for card blocks -->
+        <header class="card__header">
+            <!-- same case than card header, this is NOT independent block -->
+            <span class="card__price"></span>
+        </header>
+        <div class="card__body">
+            <!-- we are NPT adding prefix card__btn here because the button is an indipentend block and we can reuse it into other blocks -->
+            <button class="btn"></button>
+        </div>
+    </div>
+</body>
+</html>

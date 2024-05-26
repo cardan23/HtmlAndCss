@@ -1,0 +1,14 @@
+
+We will learn about the next topics:
+
+1. transformations (2D/3D)
+2. Transitions
+3. Animations
+
+
+Transition functions:
+
+    rotate()
+    scale()
+    skew()
+    translate()

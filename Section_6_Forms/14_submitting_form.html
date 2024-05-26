@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link of miligram resources css framework -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <script src="https://kit.fontawesome.com/49cf58abfe.js" crossorigin="anonymous"></script>
+    <title>Data validation</title>
+</head>
+<body>
+
+    <!-- if we use POST method this will be included into the body of http request
+    if we use GET method this will be included into the url of http request -->
+    <form action="https://formspree.io/f/xvoeypwg" method="POST">
+        <input type="text" placeholder="Name" name="name">
+        <input type="text" placeholder="Email" name="email">
+
+        <!-- the difference between submit input and submit button is width submit button we can add some icon -->
+        <!-- the better approach is use button submit -->
+        <!-- <input type="submit" placeholder="Submit" value="Submit"> -->
+        <button type="submit">
+            <i class="fa-solid fa-floppy-disk"></i>
+            Submit
+        </button>
+
+        <!-- for this example we will use formspre.io to simutale the submitting action -->
+        <!-- 
+        1. create an account into the web page
+        2. create a project
+        3. copy the url provided by "formspre.io" for your created project
+        4. send your form
+        5. check is working into "formspre.io" -->
+    </form>
+</body>
+</html>

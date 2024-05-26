@@ -1,0 +1,24 @@
+body {
+    margin: 10px;
+}
+
+/*descendent selector, this will affect any p element inside the element with given id*/
+#products p{
+    color: orange;
+}
+
+/*direct child descendent selector >, this will affect any p element inside the element with given id directly related, this means 
+a direct child of given id*/
+#products > p {
+    color: orange;
+}
+
+/*sibling immediate selector >, this will affect the immediate element sibling to the element with given id */
+#products + p {
+    color: orange;
+}
+
+/*sibling selector >, this will affect all the sibling p elements to the element with given id */
+#products ~ p {
+    color: orange;
+}

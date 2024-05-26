@@ -1,0 +1,13 @@
+Containers
+
+	div
+		This is a generic container on html, can contain any type of html element. This is one of the most used elements on html.
+		This helps to get some information together and separated to have a better visualization. We can have html classes 
+		to apply format and colors.
+
+		This is a "BLOCK" level element, wich means take entire width of the page or container where its being used.
+
+	span
+
+		This tag is pretty similar to div, just the diference its the next one:
+		This is a "INLINE" level element, wich means DO NOT TAKE entire width of the page or container where its being used.

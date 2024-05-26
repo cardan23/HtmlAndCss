@@ -1,0 +1,23 @@
+Images
+
+We can get some free images from the next link: unsplash.com
+
+For set images o our html code we can use the tag <img>
+
+we have some attributes on this tag like, source:
+
+src --> this is the link/path of the image.
+alt --> To provide text description of the image
+    Alt property is important to make more descriptive the html file.
+    another good reason is to let the browsers now about it and in case something with source fails 
+    we will show this description on screen.
+
+with --> css property to set a with size of image.
+heigth --> css css property to set a heigth size of image.
+
+New! Special property
+
+object-fit --> css property wich helps to crop or fit the image without disort it with the given sizes before.
+
+
+More about <img> tag please check here: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img

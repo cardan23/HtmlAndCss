@@ -1,0 +1,25 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    /*RGB value*/
+    /* background-color: rgb(252, 186, 3); */
+    /*same as before but including transparency value*/
+    /* background-color: rgba(252, 186, 3, 0.3); */
+
+    /*HEX value*/
+    /*this has the limitation with transparency*/
+    background-color: #2a6b66;
+
+    /*HSL values*/
+    /* background-color: hsl(23, 100%, 40%); */
+    /*same as before but different representation*/
+    /* background-color: hsl(23deg 100% 40%); */
+
+    /*same as before but including transparency value*/
+    /* background-color: hsla(23, 100%, 40%, 0.3); */
+
+}

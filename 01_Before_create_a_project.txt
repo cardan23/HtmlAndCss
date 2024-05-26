@@ -1,0 +1,13 @@
+Before create any project we need to consider next things
+
+1. Setting up the project (create main folder and folders)
+2. Identify the components into  design
+3. Define color palette
+4. Define typography
+5. Links
+6. Icons
+7. Buttons
+8. Inputs
+9. Input groups
+10. Cards
+11. Check grids

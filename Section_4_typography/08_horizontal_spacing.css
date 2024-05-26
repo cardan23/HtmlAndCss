@@ -1,0 +1,41 @@
+/*Horizontal spacing*/
+
+/*letter-spacing*/
+/* word-spacing */
+/* width */
+
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+
+    /* Letter-spacing */
+    /* with this property we can control space between letters into the text */
+    /* here is common to use pixels instead of rem value*/
+    letter-spacing: 1px;
+
+    /* word-spacing */
+    /* with this property we can control space between words into the text */
+    word-spacing: 3px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    margin: 3rem 0 1rem;
+}
+
+p {
+
+    /* relative unit, is related with 50 zeros chars size */
+    /* this will set 50 characters by each line of text and size will be the same for every line */
+    width: 50ch;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid gray;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+        tfoot{
+            text-align: left;
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <!---We can have the same result without adding "thead" but this is called a semantic html rule, 
+             its a better way to do this or good practice.
+        -->
+        <thead><!--table head-->
+            <tr>
+                <th colspan="2">Expenses</th>
+            </tr>
+            <tr><!--table row-->
+                <th>Category</th><!--table header-->
+                <th>Amount</th>
+            </tr>
+
+        </thead>
+        <!---We can have the same result without adding "tbody" but this is called a semantic html rule,
+             its a better way to do this or good practice.-->
+        <tbody><!--table body-->
+            <tr>
+                <td>Marketing</td><!--table data cell-->
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Account</td>
+                <td>$200</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <th>$300</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>

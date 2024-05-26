@@ -1,0 +1,21 @@
+Images
+
+    We have two types of images Raster or Vector images, we will describe both bellow:
+
+    Raster Images
+
+        comes from cameras/scanners
+        formats: JPG,PNG,GIF,etc
+        More pixels = larger file size
+
+    Vector images
+        Created in software
+        Format: SVG
+        Scalable Vector Graphics
+        Look sharp at any size
+
+
+    At the same time we have two different usages for images:
+
+        Content Images
+        Background Images

@@ -1,0 +1,50 @@
+body {
+    margin: 10px;
+}
+
+/* selector by id */
+#productId {
+    color: blueviolet;
+}
+
+/* selector by class */
+.product {
+    color: orange;
+}
+
+/* selector by type */
+div {
+    color: green;
+}
+
+/* selector by attribute */
+a[href] {
+    font-size: 2rem;
+    color: red;
+}
+
+/* selector by attribute and value of attribute*/
+a[target="_blank"] {
+    text-decoration:line-through;
+}
+
+
+/* selector by attribute and value of attribute contains the word*/
+a[href*="google"] {
+    color:aqua;
+}
+
+/*selector by attribute and value of attribute starts withe the given value*/
+a[href^="http"] {
+    color:brown;
+}
+
+/*selector by attribute and value of attribute ends with the the given value*/
+a[href$=".com"] {
+    color:chartreuse;
+}
+
+/*selector by attribute and value of attribute that starts and ends with the the given value*/
+a[href^="http"][href$=".com"] {
+    color:darkgreen;
+}

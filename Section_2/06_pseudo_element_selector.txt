@@ -1,0 +1,27 @@
+
+
+Pseudo element selectors
+
+    This is pretty similar to pseudo class selectors but the difference is here:
+
+    Pseudo element selector --> To style part of an element
+        Example:
+            First letter of a web paragraph
+
+    Pseudo class selector --> To style elements in a particular state.
+        Exapmle:
+            Hovered anchor
+
+    The syntanxis of a pseudo element is the next one:
+
+    selector::pseudo-element {
+      property: value;
+    }
+
+    please check html and css file to see some examples of these selectors.
+
+
+    You can find more information here:
+
+    https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+    https://www.w3schools.com/css/css_pseudo_elements.asp

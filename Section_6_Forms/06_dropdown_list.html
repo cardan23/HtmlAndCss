@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link of miligram resources css framework -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+    <link rel="stylesheet" href="06_dropdown_list.css">
+    <title>Drop-down list</title>
+</head>
+<body>
+    <form>
+        <label>Drop-down</label>
+        <!-- "multiple" attribute on select element will let us select multiple elements -->
+        <select>
+            <!-- "selected" attribute will select the option by default -->
+            <option value="">Select a course...</option>
+            <option value="1">HTML</option>
+            <option value="2">CSS</option>
+            <option value="3">JavaScript</option>
+        </select>
+
+        <label>Drop-down by groups</label>
+        <select>
+            <option value="">Select a course...</option>
+            <optgroup label="Front-end courses">
+                <option value="1">HTML</option>
+                <option value="2">CSS</option>
+                <option value="3">JavaScript</option>
+            </optgroup>
+            <optgroup label="Back-end courses">
+                <option value="1">C++</option>
+                <option value="2">Java</option>
+                <option value="3">C#</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>

@@ -1,0 +1,67 @@
+body {
+    margin: 10px;
+}
+
+
+/*-------------Media Queries-------------*/
+
+/*this is to provide different styles for different devices depending on their features*/
+
+/*Responsive web sites*/
+
+/*Responsive Designs
+1. Mobile first
+2. Desktop first
+*/
+
+/*Its easiear to work over "Mobile first" design, obviously depends on the project you are working but generally its easier to work with moibile first
+We will work with this  design on this topic*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    background-color: gold;
+    padding: 1rem;
+}
+
+.box:nth-of-type(2) {
+    background-color: dodgerblue;
+}
+
+
+/*-------------BREAK-POINTS----------*/
+
+/*we are adding a break point on minimum 600px*/
+/*this means on 600px and up flex-direction will update to row */
+@media screen and (min-width: 600px){
+    .container {
+        flex-direction: row;
+    }
+}
+
+/*this means on 900px and up we will change some styles */
+@media screen and (min-width: 900px){
+    .container {
+        flex-direction: row;
+    }
+
+    .box {
+        background-color: white;
+    }
+}
+
+/*Print means in case we want to print out web page will take the next styles*/
+@media print {
+    body {
+        font-size: 12pt;
+    }
+
+    .box {
+        padding: 0.5cm;
+    }
+}
+
+

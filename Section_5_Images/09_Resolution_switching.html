@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Normalizing_css.css">
+    <link rel="stylesheet" href="09_Resolution_switching.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- base image -->
+    <!--"srcset" attribute Provides different sources for different screen sizes tables, mobile or desktop -->
+    <!-- With this approach we can use 1x, 2x and 3x images depending our screen if or image size has a fix unit size like px
+    but this can have some issues on relative unit sizes like vw, %, rem, etc.
+    
+    To avoid that issue we will use width instead of "x" into source set
+    -->
+
+    <!-- for fix unit size 400px -->
+    <!-- <img 
+        class="meal" 
+        src="Images/meal.jpg" 
+        alt="A bowl of salmon and curry" 
+        srcset="Images/meal.jpg 1x,
+                Images/meal@2x.jpg 2x, 
+                Images/meal@3x.jpg 3x"> -->
+
+    <!-- for relative unit size -->
+    <!-- This is telling the web browser use the first image for 400px of resolution. the second for 800px of resolution and the third one for
+    1200px of width resolution -->
+
+    <!-- With sizes property we are telling the web browser how to show that image for each resolution
+    maximum 500px (mobile) complete width, maximum 700px (tablets) 50% of the width view port and
+    bigger that that (desktop) only 33% of the width view port. -->
+
+
+    <!-- we can use the next web page for breacking points image resolution,
+    here we can find a tool to resize the images depending the resolution
+    "responsivebrackpoinys.com" -->
+    <img 
+        class="meal" 
+        src="Images/meal.jpg" 
+        alt="A bowl of salmon and curry" 
+        srcset="Images/meal.jpg 400w,
+                Images/meal@2x.jpg 800w, 
+                Images/meal@3x.jpg 1200w"
+        sizes="
+        (max-width: 500px) 100vw,
+        (max-width: 700px) 50vw,
+        33vw"
+        >
+
+</body>
+
+</html>

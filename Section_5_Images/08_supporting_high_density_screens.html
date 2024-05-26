@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="08_supporting_high_density_screens.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- base image -->
+    <!--"srcset" attribute Provides different sources for different screen sizes -->
+    <img 
+        class="meal" 
+        src="Images/meal.jpg" 
+        alt="A bowl of salmon and curry"
+        srcset="Images/meal.jpg 1x, 
+                Images/meal@2x.jpg 2x, 
+                Images/meal@3x.jpg 3x">
+
+        <!-- if we do not specify the srcset attribute the image will look blurry like this example -->
+        <!-- that is why we need to have different versions of resolution images depending on the device will be rendered -->
+        <img class="meal" src="Images/meal.jpg" alt="A bowl of salmon and curry" />
+</body>
+
+</html>

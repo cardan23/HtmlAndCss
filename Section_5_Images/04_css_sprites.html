@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="04_css_sprites.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- With this approach the web browser is sending 1 http get request for each image, this could be hard on a web site with hundred of images
+    can be a slow web page due to loading images, for this reason we will have the solution with sprites technique-->
+    <img src="Images/dishes.png" alt="">
+    <img src="Images/landing.png" alt="">
+    <img src="Images/rocketship.png" alt="">
+    <img src="Images/saturn.png" alt="">
+    <img src="Images/ufo.png" alt="">
+
+     <!--
+    CSS Sprite    
+        
+    https://cssspritestool.com/
+    or search on goolge css sprites generator to find another sprites generator
+
+    this tool will combine multiple images into a sigle one 
+
+    Only 1 http request for same images
+
+    this can have some problems too is not perfect
+
+    Problems:
+        File size can get too large
+        Sprites are not flexible
+        we should use this only for small images and some icons
+    -->
+    <span class="bg-dishes"></span>
+    <span class="bg-landing"></span>
+    <span class="bg-rocketship"></span>
+    <span class="bg-saturn"></span>
+    <span class="bg-ufo"></span>
+</body>
+</html>

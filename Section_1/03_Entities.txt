@@ -1,0 +1,23 @@
+
+Entities
+
+    Entities on Html are special chars and we need to write them with a particular way.
+
+    For example if we want to show <> (angle brackets) on the page will not be possible
+    due to the web browser translate this as part of the structure of web page.
+
+    All Entities on html starts with & and ends with ";".
+
+    For exaple to apply angle brackets we need to write something like below:
+
+        < -- less than
+            &lt;
+
+        > -- greater than
+            &gt;
+        
+    Here the link with all available entities on html
+
+        https://www.w3.org/wiki/Common_HTML_entities_used_for_typography
+
+    

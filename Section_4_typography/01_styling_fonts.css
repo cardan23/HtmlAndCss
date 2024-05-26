@@ -1,0 +1,35 @@
+body {
+    margin: 10px;
+
+        /*Ctrl + space, this to appear the suggestions for complete the text*/
+
+    /*Font stack*/
+    /*Arial, Helvetica, sans-serif --> this is the font stack we are using
+      if web browser detects Arial is installed on customer computer will use it, if not
+      will check next font "Helvetica" if not installed will check to use the last one 
+      "sans-serif" ---> this is a generic name for sans-serfi, serif or monospace, the browser will use the font available*/
+
+    /*on body this font stack will be inherited to all next elements */
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    /*Not using the inherited font stack, this element will use their own font stack*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    /*normal == 400*/
+    /*bold == 700*/
+    font-weight: normal;
+
+    font-style: italic;
+
+    /*specify the name of the font, 1rem is the font size of the root element, depends if its specified on html element or web browser has their on values
+      by default is common 1rem == 16px*/
+    font-size: 1rem;
+
+    /*color of the font*/
+    /*as recomendation is better use to eyes realy dark gray color for font than black #000*/
+    color: #333;
+}

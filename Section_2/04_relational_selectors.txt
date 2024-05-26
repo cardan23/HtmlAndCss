@@ -1,0 +1,14 @@
+Relational Selectors
+
+    This kind of selectors are used to apply styles to elements that are related like siblings or a child of an element.
+    we can use these selectors with no questions but we need to be careful because it can be like this:
+
+    Fragile:
+        This kind of elements depends on the positions that have as reference another selector, if one of those elements change of place
+        our style will broke and fail. So this is one of the reasons we need to be careful of this. Only if we are sure about the positions
+        and relations of html elements we can apply it.
+
+    Slow:
+        Normal or common selectors like id, type or class selectoris faster than relational selector, this is because we can find directly
+        with this parameter that identify the element, but with relational selectors, we depend on other elements and their position to browsers
+        be able to apply the styles, so this last procedure takes more time with large web pages.

@@ -1,0 +1,16 @@
+
+Normalizing CSS
+
+
+This is a css file available on internet that let us normalize the css styles on all web browsers.
+
+With this we mean, web browsers have different ways to render web pages and with this file we set all css properties to have the same css styles
+into all web browsers.
+
+For example:
+
+mozila firefox adds a margin on the left of 10px by default on all web pages, this behavior don´t happens into google chrome,
+so with this file we remove that style by default and we have the same result into all web browsers.
+
+Normalice file
+    https://necolas.github.io/normalize.css/

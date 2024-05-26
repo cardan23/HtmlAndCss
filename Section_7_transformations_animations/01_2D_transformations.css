@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background: gold;
+}
+
+.box:hover {
+    /* this will rotate on hover from left to right*/
+    /* transform: rotate(15deg); */
+
+    /* this will rotate on hover from right to left */
+    /* transform: rotate(-15deg); */
+
+    /* box size will be bigger 1.5 more times */
+    /* transform: scale(1.5); */
+
+    /* transform: skew(15deg); */
+
+    /* will move 10 px to rigth and  10 px bottom */ 
+    /* transform: translate(10px, 10px); */
+
+    /* we can combine different transformation functions */
+    transform: translateX(50px) rotate(45deg);
+}
